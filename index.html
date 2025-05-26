@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <style>
+    body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  line-height: 1.8;
+}
+
+header {
+  background-color: #004a99;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+main {
+  padding: 30px 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background-color: #fff;
+  border-right: 5px solid #007bff;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
+
+.card h2 {
+  color: #004a99;
+}
+
+.card ul {
+  padding-right: 20px;
+}
+
+.card.premium {
+  border-right-color: #ff5722;
+  background-color: #fff8f0;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.9em;
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مقارنة أنظمة الاتصال</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#option1">الخيار الأول</a></li>
+        <li><a href="#option2">الخيار الثاني</a></li>
+        <li><a href="#option3">الخيار الثالث</a></li>
+      </ul>
+    </nav>
+    <h1>مقارنة أنظمة الاتصال التسويقي</h1>
+  </header>
+
+  <main>
+    <section id="option1" class="card">
+      <h2>الخيار الأول: النظام اليدوي البسيط</h2>
+      <ul>
+        <li>إدخال الأرقام يدويًا أو من ملف Excel.</li>
+        <li>تسجيل الاسم، التاريخ، والحالة.</li>
+        <li>إحصائيات المكالمات اليومية.</li>
+        <li>ترتيب حسب: موافق، رفض، مشغول، خارج الخدمة.</li>
+      </ul>
+      <p><strong>ملاحظة:</strong> يعتمد على موقع ويب بسيط.</p>
+      <p><strong>سعر التطوير:</strong> 150 - 400 دولار.</p>
+      <p><strong>وقت التنفيذ المتوقع:</strong> 5 - 7 أيام.</p>
+      <p><strong>الاستضافة:</strong> حوالي 5 دولار.</p>
+    </section>
+
+    <section id="option2" class="card">
+      <h2>الخيار الثاني: النظام بقاعدة بيانات</h2>
+      <ul>
+        <li>مستويات دخول: مدير، موظف، محاسب، موارد بشرية.</li>
+        <li>إحصائيات حية يومية وشهرية.</li>
+        <li>توزيع أرقام ذكي لمنع التكرار.</li>
+        <li>لوحة لكل موظف مع أداء وربح متوقع.</li>
+        <li>يعرض عدد المكالمات التي:</li>
+        <ul>
+          <li>تمت محاولة الاتصال بها (العدد الكلي).</li>
+          <li>تم الرد عليها.</li>
+          <li>لم يُرد عليها.</li>
+<ul>
+  <li>يتم ذلك باستخدام:</li>
+  <ul>
+    <li>
+      <strong>1. النظام اليدوي (بدون حاسوب):</strong>
+      <ul>
+        <li><strong>التكلفة:</strong>
+          <ul>
+            <li>لا توجد رسوم اشتراك شهرية.</li>
+            <li>فقط تكلفة المكالمات (رصيد هاتف أو فاتورة شهرية).</li>
+          </ul>
+        </li>
+        <li><strong>ملحوظة:</strong> يمكن استخدامه بهواتف الموظفين الشخصية أو الهاتف الأرضي.</li>
+      </ul>
+    </li>
+    
+    <li>
+      <strong>2. النظام الآلي (يحتاج حاسوب أو سيرفر):</strong>
+      <ul>
+        <li>يستخدم نظام Asterisk مع API وواجهة Dashboard، أو مزود مثل Twilio/Plivo عبر Webhooks، أو نظام بسيط بـ JavaScript وLocalStorage.</li>
+        <li><strong>التكلفة الشهرية:</strong> قد تصل إلى حوالي 10 - 50 دولار شهريًا حسب مزود الخدمة وحجم الاستخدام.</li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+      <p><strong>ملاحظة:</strong> يعتمد على موقع ويب متكامل.</p>
+      <p><strong>سعر التطوير:</strong> 600 - 900 دولار.</p>
+      <p><strong>وقت التنفيذ المتوقع:</strong>14 - 20 يومًا.</p>
+      <p><strong>الاستضافة:</strong> من 10 دولار شهريًا.</p>
+    </section>
+
+    <section id="option3" class="card premium">
+<h2>الخيار الثالث: نظام الاتصال الآلي (Auto Dialer)</h2>
+<ul>
+  <li>يتصل تلقائيًا بجميع الأرقام في القائمة بدون تدخل بشري.</li>
+  <li>لا يحتاج إلى موظفي اتصال، لكن يمكن إضافة عنصر بشري عند الحاجة.</li>
+  <li>يعرض المكالمة فقط إذا رد العميل أو في حالات مخصصة.</li>
+  <li>ينفذ آلاف المكالمات يوميًا حسب قوة النظام.</li>
+  <li>يدعم المكالمات المجدولة أو الفورية يوميًا.</li>
+  <li>يعرض رسائل صوتية مسجلة مسبقًا للعملاء.</li>
+  <li>يمكن ربطه بنظام تفاعلي ذكي (IVR) للتعامل مع استجابات العملاء.</li>
+  <li>يدعم إرسال رسائل عبر SMS أو WhatsApp (عبر Click to Chat مثل: 
+    <a href="https://wa.me/964">wa.me</a> أو باستخدام <strong>WhatsApp Business API</strong>).
+  </li>
+  <li><strong>ملاحظة:</strong> أداء النظام يعتمد على مواصفات الجهاز (RAM، المعالج، نظام التشغيل) ونوع الاستضافة (محلية أو سحابية).</li>
+</ul>
+
+<div class="note">
+  <strong>مقارنة الأداء الشهري:</strong><br>
+  - عدد مكالمات 14 موظفًا = <strong>36,400 مكالمة شهريًا</strong><br>
+  - النظام يمكنه تنفيذ <strong>2 إلى 4 أضعاف</strong> هذا الرقم (أي بين 80,000 إلى 150,000 مكالمة)<br>
+  - نسبة الردود الفعلية عادة تتراوح بين <strong>25% إلى 40%</strong><br><br>
+
+  <strong>مدة تطوير النظام:</strong><br>
+  - تُقدّر المدة بحوالي <strong>شهرين أو أكثر</strong> حسب حجم المشروع والمتطلبات الدقيقة.<br><br>
+
+  <strong>التكلفة الشهرية (تقريبية):</strong><br>
+  - <u>النظام التقليدي (14 موظف):</u> يُمثل <strong>100% من التكلفة الشهرية</strong><br>
+  - <u>نظام Auto Dialer:</u> يُكلف تقريبًا <strong>5% إلى 10%</strong> فقط من تكلفة توظيف 14 موظفًا<br><br>
+<strong>تكلفة تطوير النظام (مرة واحدة، تقريبية):</strong><br>
+- تبدأ من <strong>1,500 دولار</strong> وقد تصل إلى <strong>8,000 دولار</strong> حسب حجم المشروع والمتطلبات.<br>
+- تمثل ما يعادل <strong>3 إلى 12 شهرًا</strong> من راتب موظف واحد فقط.<br><br>><br>
+
+  <strong>التوفير الشهري:</strong><br>
+  - يُوفر النظام الآلي حوالي <strong>90% أو أكثر</strong> من التكلفة الشهرية مقارنة بالنظام التقليدي<br>
+  - مع كفاءة أعلى، تغطية أوسع، واستجابة أسرع.
+</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>تم التحديث في مايو 2025. الأسعار والمواصفات قابلة للتفاوض حسب الطلب.</p>
+  </footer>
+
+</body>
+</html>
